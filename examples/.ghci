@@ -1,5 +1,0 @@
--- Print SQL for a query
-let pSQL query = return $ "Database.HaskellDB.PrintQuery.ppSql " ++ query
-:def pSQL pSQL
-
-:l Select.hs

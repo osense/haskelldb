@@ -1,3 +1,0 @@
-#!/bin/sh
-
-for p in `ghc-pkg list --simple-output | perl -pe 's/ /\n/g' | grep haskelldb`; do sudo ghc-pkg unregister $p; done
